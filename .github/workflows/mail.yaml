@@ -14,6 +14,18 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pyyaml
+      - name: Install Git
+        run: sudo apt-get install git
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Runner"
+          git config user.email "ray@planetoftheweb.com"
       - name: execute script
         run: |
           python feed.py
+      - name: Commit changes
+        run: |
+          git add -A
+          git commit -m "Update files from feed.py"
+      - name: Push changes
+        run: git push origin main
