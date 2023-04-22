@@ -1,29 +1,32 @@
 import yaml
 import xml.etree.ElementTree as ET
 
-# Load feed.yaml file
 with open('feed.yaml', 'r') as f:
     data = yaml.safe_load(f)
 
-# Create XML tree
 rss = ET.Element('rss', {'version': '2.0',
                          'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
                          'xmlns:content': 'http://purl.org/rss/1.0/modules/content/'})
 channel = ET.SubElement(rss, 'channel')
+link = ET.SubElement(channel, 'link').text = data['link']
+link = ET.SubElement(channel, 'format').text = data['format']
 ET.SubElement(channel, 'title').text = data['title']
-ET.SubElement(channel, 'language').text = 'en-us'
-ET.SubElement(channel, 'itunes:category').text = data['category']
 ET.SubElement(channel, 'description').text = data['description']
 ET.SubElement(channel, 'itunes:image', {'href': data['image']})
+ET.SubElement(channel, 'language').text = data['language']
+ET.SubElement(channel, 'itunes:category').text = data['category']
+ET.SubElement(channel, 'itunes:explicit').text = data['explicit']
+ET.SubElement(channel, 'link').text = link
+ET.SubElement(channel, 'author').text = data['author']
 for item in data['item']:
     item_elem = ET.SubElement(channel, 'item')
-    ET.SubElement(item_elem, 'title').text = item['title']
-    ET.SubElement(item_elem, 'description').text = item['description']
+    ET.SubElement(item_elem, 'itunes:title').text = item['title']
+    ET.SubElement(item_elem, 'summary').text = item['summary']
     ET.SubElement(item_elem, 'pubDate').text = item['published']
     enclosure = ET.SubElement(item_elem, 'enclosure', {
-        'url': 'https://example.com/' + item['file'],
-        'type': 'audio/mpeg',
-        'length': '0'
+        'url': link + item['file'],
+        'type': format,
+        'length': item['length']
     })
 
 # Write XML tree to file

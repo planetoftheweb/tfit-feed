@@ -1,60 +1,88 @@
-title: The Future in Tech - Powered by LinkedIn
-email: ray@planetoftheweb.com
-author: Ray Villalobos
+title: The Future in Tech
 description: Conversations with leaders building next generation techology tools
+image: /images/artwork.png
+language: en-us
 category: Technology
-image: https://raybo.org/tfit-feed/images/artwork.png
-link: https://go.raybo.org/tfit
+explicit: false
+link: https://raybo.org/tfit-feed
+author: Ray Villalobos
+format: audio/mpeg
 item:
   - title: EP01-What's Happening in 2023
-    description: Ray Villalobos and Content Managers Natalie Pao and Simon St. Laurent discuss what 2023 holds for the future in technology.
+    summary: Ray Villalobos and Content Managers Natalie Pao and Simon St. Laurent discuss what 2023 holds for the future in technology.
     published: Thu, 12 Jan 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT01.mp3
+    file: /audio/TFIT01.mp3
+    duration: 00:45:10
+    length: 43,357,372
   - title: EP02-What is Generative AI?
-    description:  Pinar Demirdag discusses the fundamentals of generative AI, its practical applications, and future developments as companies create AI strategies in 2023.
+    summary:  Pinar Demirdag discusses the fundamentals of generative AI, its practical applications, and future developments as companies create AI strategies in 2023.
     published: Thu, 19 Jan 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT02.mp3
+    file: /audio/TFIT02.mp3
+    duration: 00:55:27
+    length: 53,235,503
   - title: EP03-How Generative AI Will Change DevOps
-    description:  Jerome Hardaway explores how generative AI can revolutionize the software development process by increasing efficiency, automating repetitive tasks, and creating more sophisticated and innovative solutions.
+    summary:  Jerome Hardaway explores how generative AI can revolutionize the software development process by increasing efficiency, automating repetitive tasks, and creating more sophisticated and innovative solutions.
     published: Thu, 26 Jan 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT03.mp3
+    file: /audio/TFIT03.mp3
+    duration: 00:57:46
+    length: 55,304,319
   - title: EP04-Building Responsible AI Systems
-    description:   Ayodele Odubela, a Data Scientist, Machine Learning professional and AI Entrepreneur, discusses the ethical issues surrounding the rapid adoption of AI systems, including transparency, minimizing bias, ensuring fairness, and potential ramifications around privacy, security, and governance.
+    summary:   Ayodele Odubela, a Data Scientist, Machine Learning professional and AI Entrepreneur, discusses the ethical issues surrounding the rapid adoption of AI systems, including transparency, minimizing bias, ensuring fairness, and potential ramifications around privacy, security, and governance.
     published: Thu, 2 Feb 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT04.mp3
+    file: /audio/TFIT04.mp3
+    duration: 01:01:05
+    length: 58,651,840
   - title: EP05-Crafting an AI Strategy For Your Business
-    description: Andreas Welsch joins this discussion to share insights on crafting an AI strategy for businesses that considers evolving technology, ethics, and legal implications, drawing from his extensive experience in managing stakeholder relationships and leading AI projects across Fortune 500 companies.
+    summary: Andreas Welsch joins this discussion to share insights on crafting an AI strategy for businesses that considers evolving technology, ethics, and legal implications, drawing from his extensive experience in managing stakeholder relationships and leading AI projects across Fortune 500 companies.
     published: Thu, 9 Feb 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT05.mp3
+    file: /audio/TFIT05.mp3
+    duration: 00:51:47
+    length: 49,712,313
   - title: EP06-Deep Fakes, Synthetic Content and Generative AI
-    description: Noelle Silver Russell delves into the technology behind deep fakes, synthetic content, and generative AI, discussing the potential for democratizing art, photography, video, and audio production, while also addressing concerns over the threat to our concept of reality.
+    summary: Noelle Silver Russell delves into the technology behind deep fakes, synthetic content, and generative AI, discussing the potential for democratizing art, photography, video, and audio production, while also addressing concerns over the threat to our concept of reality.
     published: Thu, 23 Feb 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT06.mp3
+    file: /audio/TFIT06.mp3
+    duration: 00:57:00
+    length: 54,727,651
   - title: EP07-The role of Design and Art in an AI World
-    description: John Maeda, VP of Design and Artificial Intelligence at Microsoft, discusses the role of designers and artists in the development of works using Artificial Intelligence, addressing the challenges and opportunities presented by this new paradigm.
+    summary: John Maeda, VP of Design and Artificial Intelligence at Microsoft, discusses the role of designers and artists in the development of works using Artificial Intelligence, addressing the challenges and opportunities presented by this new paradigm.
     published: Thu, 2 Mar 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT07.mp3
+    file: /audio/TFIT07.mp3
+    duration: 00:57:46
+    length: 55,465,871
   - title: EP08-Are We Trusting Artificial Intelligence Too Much?
-    description: Diana Kelley, Chief Strategy Officer and Cofounder of Cybrize, discusses the dangers of putting too much trust in AI, the potential for AI technologies to fail, and how companies can build resilience into their AI strategy.
+    summary: Diana Kelley, Chief Strategy Officer and Cofounder of Cybrize, discusses the dangers of putting too much trust in AI, the potential for AI technologies to fail, and how companies can build resilience into their AI strategy.
     published: Thu, 9 Mar 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT08.mp3
+    file: /audio/TFIT08.mp3
+    duration: 00:58:45
+    length: 56,402,402
   - title: EP09-The Future of Artificial Intelligence at LinkedIn
-    description: Xavier Amatriain, VP of Engineering for Artificial Intelligence and Product Initiatives at LinkedIn, discusses how AI and Machine Learning fit into LinkedIn's vision to create economic opportunities for the global workforce, exploring how companies can solve new problems using AI and how humans and computers can collaborate to define the future.
+    summary: Xavier Amatriain, VP of Engineering for Artificial Intelligence and Product Initiatives at LinkedIn, discusses how AI and Machine Learning fit into LinkedIn's vision to create economic opportunities for the global workforce, exploring how companies can solve new problems using AI and how humans and computers can collaborate to define the future.
     published: Thu, 16 Mar 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT09.mp3
+    file: /audio/TFIT09.mp3
+    duration: 00:58:40
+    length: 56,317,088
   - title: EP10-How Humanity & Artificial Intelligence Work Together
-    description: Brandie Nonnecke, Founding Director of the CITRIS Policy Lab and Associate Research Professor at UC Berkeley, discusses how humans and machines can work together to solve big questions about Artificial Intelligence, including addressing Human Rights, Digital Citizenship, and governance.
+    summary: Brandie Nonnecke, Founding Director of the CITRIS Policy Lab and Associate Research Professor at UC Berkeley, discusses how humans and machines can work together to solve big questions about Artificial Intelligence, including addressing Human Rights, Digital Citizenship, and governance.
     published: Thu, 16 Mar 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT10.mp3
+    file: /audio/TFIT10.mp3
+    duration: 00:52:20
+    length: 50,247,029
   - title: EP11-Inside OpenAI's Developer Future
-    description: Logan Kilpatrick, who is helping to build the developer relations team at OpenAI, discusses the rapid adoption of Chat GPT and its powerful API, which has been used by tools like GitHub CoPilot to change developer productivity, as well as OpenAI's partnership with Microsoft and their mission to create AGI's that benefit humanity.
+    summary: Logan Kilpatrick, who is helping to build the developer relations team at OpenAI, discusses the rapid adoption of Chat GPT and its powerful API, which has been used by tools like GitHub CoPilot to change developer productivity, as well as OpenAI's partnership with Microsoft and their mission to create AGI's that benefit humanity.
     published: Thu, 30 Mar 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT11.mp3
+    file: /audio/TFIT11.mp3
+    duration: 00:58:22
+    length: 56,030,100
   - title: EP12-Machine Learning, Artificial Intelligence & Development
-    description: In this episode, I talked to Denys Linkov, a Machine Learning Team Lead at Voiceflow. We explored how AI and ML are transforming the software development industry. We discussed the impact on job roles, wages, and career prospects for those currently in or planning to join the industry revolution.
+    summary: In this episode, I talked to Denys Linkov, a Machine Learning Team Lead at Voiceflow. We explored how AI and ML are transforming the software development industry. We discussed the impact on job roles, wages, and career prospects for those currently in or planning to join the industry revolution.
     published: Thu, 6 Apr 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT12.mp3
+    file: /audio/TFIT12.mp3
+    duration: 00:58:49
+    length: 56,464,022
   - title: EP013-Upskilling and Reskilling for Artificial Intelligence
-    description: Matt Harrison, an expert who helps teams and individuals level up Python, Data Science, and Development skills, discusses the opportunities and importance of upskilling and reskilling for Artificial Intelligence and Machine Learning, drawing from his experience in training companies like Hewlett Packard, Adobe, and Samsung.
+    summary: Matt Harrison, an expert who helps teams and individuals level up Python, Data Science, and Development skills, discusses the opportunities and importance of upskilling and reskilling for Artificial Intelligence and Machine Learning, drawing from his experience in training companies like Hewlett Packard, Adobe, and Samsung.
     published: Thu, 13 Apr 2023 18:00:00 GMT
-    file: https://raybo.org/tfit-feed/audio/TFIT13.mp3
+    file: /audio/TFIT13.mp3
+    duration: 00:51:40
+    length: 49,598,132
