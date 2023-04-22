@@ -18,8 +18,8 @@ jobs:
         run: sudo apt-get install git
       - name: Configure Git
         run: |
-          git config user.name "GitHub Actions Runner"
-          git config user.email "ray@planetoftheweb.com"
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ input.email }}"
       - name: execute script
         run: |
           python feed.py
@@ -28,4 +28,9 @@ jobs:
           git add -A
           git commit -m "Update files from feed.py"
       - name: Push changes
-        run: git push
+        run: git push origin main
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
