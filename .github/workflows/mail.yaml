@@ -28,4 +28,4 @@ jobs:
           git add -A
           git commit -m "Update files from feed.py"
       - name: Push changes
-        run: git push origin main
+        run: git push
