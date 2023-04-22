@@ -12,9 +12,9 @@ rss = ET.Element('rss', {'version': '2.0',
 channel = ET.SubElement(rss, 'channel')
 ET.SubElement(channel, 'title').text = data['title']
 ET.SubElement(channel, 'language').text = 'en-us'
-ET.SubElement(channel, 'category').text = data['category']
+ET.SubElement(channel, 'itunes:category').text = data['category']
 ET.SubElement(channel, 'description').text = data['description']
-ET.SubElement(channel, 'image', {'href': data['image']})
+ET.SubElement(channel, 'itunes:image', {'href': data['image']})
 for item in data['item']:
     item_elem = ET.SubElement(channel, 'item')
     ET.SubElement(item_elem, 'title').text = item['title']
