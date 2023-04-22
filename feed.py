@@ -6,7 +6,9 @@ with open('feed.yaml', 'r') as f:
     data = yaml.safe_load(f)
 
 # Create XML tree
-rss = ET.Element('rss', {'version': '2.0','xmlns:atom': 'xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/"'})
+rss = ET.Element('rss', {'version': '2.0',
+                         'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+                         'xmlns:content': 'http://purl.org/rss/1.0/modules/content/'})
 channel = ET.SubElement(rss, 'channel')
 ET.SubElement(channel, 'title').text = data['title']
 ET.SubElement(channel, 'language').text = 'en-us'
