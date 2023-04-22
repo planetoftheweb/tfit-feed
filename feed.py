@@ -9,7 +9,7 @@ rss = ET.Element('rss', {'version': '2.0',
                          'xmlns:content': 'http://purl.org/rss/1.0/modules/content/'})
 channel = ET.SubElement(rss, 'channel')
 link = ET.SubElement(channel, 'link').text = data['link']
-link = ET.SubElement(channel, 'format').text = data['format']
+format = ET.SubElement(channel, 'format').text = data['format']
 ET.SubElement(channel, 'title').text = data['title']
 ET.SubElement(channel, 'description').text = data['description']
 ET.SubElement(channel, 'itunes:image', {'href': data['image']})
