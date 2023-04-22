@@ -19,7 +19,7 @@ jobs:
       - name: Configure Git
         run: |
           git config user.name "${{ github.actor }}"
-          git config user.email "${{ input.email }}"
+          git config user.email "ray@planetoftheweb.com"
       - name: execute script
         run: |
           python feed.py
