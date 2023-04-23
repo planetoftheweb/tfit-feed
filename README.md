@@ -1,6 +1,6 @@
 # The Future in Tech
 
-![The Future in Tech Image](/images/artwork.jpg){:width="400px"}
+<img src="/images/artwork.jpg" width="200">
 
 The Future in Tech is a weekly series from LinkedIn Learning hosted by Senior Staff Instructor Ray Villalobos.
 
