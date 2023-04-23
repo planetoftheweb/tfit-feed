@@ -1,8 +1,14 @@
 title: The Future in Tech
 subtitle: Conversations with leaders building next generation techology tools
 author: Ray Villalobos
-description: The Future in Tech, a LinkedIn Learning weekly live stream is a series of conversations with Senior Staff Instructor Ray Villalobos. Every week we talk to one of the most notable leaders in technology covering topics like artificial intelligence, data science, web development and more. You can watch it on LinkedIn, Twitter and YouTube every Thursday at 2pm ET, 11am PT.
-image: /images/artwork.png
+description: The Future in Tech is a weekly series from LinkedIn Learning hosted by Senior Staff Instructor Ray Villalobos.
+
+You can watch it on LinkedIn every Thursday at 2pm ET, 11am PT. The goal of this series is to spark conversations, provide practical tips and resources to help developers work, learn, and tackle challenges related to working in the technology industry.
+
+We're talking about Generative AI tools like ChatGPT, Dall-E*2, Hugging Face by talking to some of the leaders delivering the tools, strategies and technologies that make working in technology exciting. We'll discuss how they broke into technology, business strategies, ethical concerns and technical skills.
+
+You have a chance to hear from people who are not just talking about, but building the next generation tools like Open AI and leaders who've worked for and with Fortune 500 companies like Microsoft, Google, LinkedIn,  IBM,  Open AI and more.
+image: /images/artwork.jpg
 language: en-us
 category: Technology
 explicit: false
@@ -88,3 +94,9 @@ item:
     file: /audio/TFIT13.mp3
     duration: 00:51:40
     length: 49,598,132
+  - title: EP014-How Artificial Intelligence is Changing Visual Studio Code
+    description: Burke Holland, Principal Developer Advocate at Microsoft comes talk to us about how Visual Studio Code is made, why it's so popular and how Artificial Intelligence is going to change the way everything is programmed.
+    published: Thu, 20 Apr 2023 18:00:00 GMT
+    file: /audio/TFIT14.mp3
+    duration: 00:50:21
+    length: 48,337,907
