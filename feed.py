@@ -11,10 +11,11 @@ channel = ET.SubElement(rss, 'channel')
 link = ET.SubElement(channel, 'link').text = data['link']
 format = ET.SubElement(channel, 'format').text = data['format']
 ET.SubElement(channel, 'title').text = data['title']
+ET.SubElement(channel, 'subtitle').text = data['subtitle']
 ET.SubElement(channel, 'description').text = data['description']
-ET.SubElement(channel, 'itunes:image', {'href': data['image']})
+ET.SubElement(channel, 'itunes:image', {'href': link + data['image']})
 ET.SubElement(channel, 'language').text = data['language']
-ET.SubElement(channel, 'itunes:category').text = data['category']
+category = ET.SubElement(channel, 'itunes:category', {'text': data['category']})
 ET.SubElement(channel, 'itunes:explicit').text = data['explicit']
 ET.SubElement(channel, 'link').text = link
 ET.SubElement(channel, 'author').text = data['author']
