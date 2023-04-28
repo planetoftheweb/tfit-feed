@@ -99,3 +99,9 @@ item:
     file: /audio/TFIT14.mp3
     duration: 00:50:21
     length: 48,337,907
+  - title: EP015-How to Level Up Your Development Skills with All the GitHub Artificial Intelligence Tools
+    description: Github has transformed the way more than 100 million developers collaborate on projects. In June 2018, Microsoft purchased GitHub for seven and a half billion dollars. And since then, they have been the lead delivering results with many tools, including one called Copilot, which has helped developers code 55 % faster. It's no surprise that Microsoft took notice and Copilot is coming to a Microsoft app near you. In this episode, I talk to Allison Weins. Allison is a senior project manager at GitHub. She worked with many teams inside both Microsoft and GitHub and is an expert on the tools developers use daily like Copilot, Projects and CodeSpaces.
+    published: Thu, 27 Apr 2023 18:00:00 GMT
+    file: /audio/TFIT15.mp3
+    duration: 00:52:48
+    length: 50,708,176
