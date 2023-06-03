@@ -129,11 +129,9 @@ item:
     file: /audio/TFIT19.mp3
     duration: 01:03:07
     length: 60,592,882
-  - title: How Large Scale Data and Artificial Intelligence Work - with Ado Kukic
-    description: "Artificial Intelligence requires massive amounts of data in order to work and as companies are looking to incorporate their own information to feed Large Language models, it's important to understand the role of data in this new age. In this episode, I talked to Ado Kukic. He's the Director of Developer Advocacy at DigitalOcean, one of the web's most respected cloud hosting providers. He has over a decade of programming, development, and design experience, and is a seasoned software engineer who enjoys learning new technologies and best practices. We talked about the role of data in this new age, how companies are adjusting, his experience building a platform that uses the ChatGPT API and  what Digital Ocean's more than 600k customers are doing to adjust to the age of AI."
+  - title: Emerging Roles in Data Science and Artificial Intelligence - with Christina Stathopoulos
+    description: "As AI changes the world, new roles besides developers and engineers are emerging to tackle the challenges. One of these is the role of the data translator, an analytical lead that can bridge the gap between business and technical teams.\n\nIn this episode, we talked about opportunities for AI professionals who are wondering how AI is going to change their futures.\n\nWe discussed the impact of AI on the future of careers in the field. We talk about the importance quality data. We touched on the issue of accuracy in AI and the development of new technologies to prevent hallucination. We also stressed the importance of understanding the right questions to ask to get good data.\n\nWe discussed the need for companies to explore new areas that AI can be used to empower workers, rather than just focusing on cost reduction and cutting headcount."
     published: Thu, 1 Jul 2023 18:00:00 GMT
     file: /audio/TFIT20.mp3
-    duration: 01:03:07
-    length: 60,592,882
-
-    As AI changes the world, new roles besides developers and engineers are emerging to tackle the challenges. One of these is the role of the data translator, an analytical lead that can bridge the gap between business and technical teams.\n\nIn this episode, we talked about opportunities for AI professionals who are wondering how AI is going to change their futures.\n\nWe discussed the impact of AI on the future of careers in the field. We talk about the importance quality data. We touched on the issue of accuracy in AI and the development of new technologies to prevent hallucination. We also stressed the importance of understanding the right questions to ask to get good data.\n\nWe discussed the need for companies to explore new areas that AI can be used to empower workers, rather than just focusing on cost reduction and cutting headcount.
+    duration: 00:42:59
+    length: 41,275,515
