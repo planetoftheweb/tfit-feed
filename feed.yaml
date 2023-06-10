@@ -135,3 +135,9 @@ item:
     file: /audio/TFIT20.mp3
     duration: 00:42:59
     length: 41,275,515
+  - title: Secrets of the Artificial Intelligence and Data Science Mind -- with Sadie St. Lawrence
+    description: "Data has been at the forefront of every breakthrough in technology, so it's no surprise that in the Age of AI, data has played a key role, helping the algorithms train and learn to think like humans. In this episode, we explore the role of data in AI with someone with a background in research, neurology and learning.\n\nSadie St. Lawrence is the Founder and CEO of Women in Data, with a mission to increase diversity in data careers through awareness, education, and empowerment. Sadie worked in a neuroscience lab studying emotional learning and memory. She has been working in data science and AI for the past ten years.\n\nWe'll explore why the AI algorithms are able to behave like humans, why they hallucinate and if it's even possible for them to reach the depths of an AGI (Artificial General Intelligence)."
+    published: Thu, 8 Jul 2023 18:00:00 GMT
+    file: /audio/TFIT21.mp3
+    duration: 00:36:48
+    length: 35,265,128
