@@ -141,3 +141,11 @@ item:
     file: /audio/TFIT21.mp3
     duration: 00:36:48
     length: 35,265,128
+  - title: The Artificial Intelligence Decision Landscape--with Cassie Koryrkov
+    description: The AI landscape holds vast opportunities, but making informed decisions
+    is crucial; join me as I explore decision science with Cassie Kozyrkov, a Chief
+    Decision Scientist at guiding thousands in the realms of statistics, decision-making,
+    and machine learning.
+    file: /audio/TFIT22.mp3
+    duration: 00:28:55
+    length: 27,707,578
